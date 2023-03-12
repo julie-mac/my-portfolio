@@ -1,0 +1,63 @@
+:root {
+    --light: #e2e4ef;
+    --dark: #574e7a;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: var(--dark);
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+.name {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: oblique;
+    color: var(--light);
+}
+
+nav {
+    display: flex;
+    max-width: 300px;
+    justify-content: space-between;
+}
+
+.navigate {
+    margin-right: 0px;
+    color: #ffff;
+    justify-content: space-evenly;
+}
+
+#quote {
+    display: flex;
+    height: 35vh;
+    width: 100vw;
+    background-image: url(/assets/images/sunset-background.png);
+    background-size: cover;
+    justify-content: flex-end;
+}
+
+#quote h2 {
+    font-style: oblique;
+    margin-right: 50px;
+    margin-top: 100px;
+    color: var(--dark);
+}
+
+main {
+    background-color: var(--light);
+}
+
+@media screen and (max-width: 500px){
+    header, nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
