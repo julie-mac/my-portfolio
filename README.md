@@ -17,6 +17,7 @@ To navigate the webpage, refer to the navigation bar at the top of the page. The
 ## Credits
 
 [julie-mac](https://github.com/julie-mac)
+
 [Meyer Web](https://meyerweb.com/eric/tools/css/reset/) - Provided CSS reset style sheet
 
 ## License
