@@ -116,7 +116,7 @@ main {
     position: relative;
 }
 
-.content div{;
+.content div{
     padding: 10px;
     background-color: var(--light);
     border: 2px solid var(--dark);
@@ -203,7 +203,6 @@ main {
 
 .prework-title p {
     font-size: 30px;
-    pad
 }
 
 #prework-title:hover {
@@ -235,7 +234,7 @@ main {
     transition-duration: 1.5s;
 }
 
-@media screen and (max-width: 912px){
+@media screen and (max-width: 900px){
     main {
         flex-direction: column;
     }
@@ -246,21 +245,24 @@ main {
     }
 
     header {
-        height: 550px;
-        display: flex;
-    }
+        height: 600px;
+        
+    } 
 
     .name {
-        display: flex;
+        position:static;
         justify-content: center;
         margin: 20px;
     }
 
     #mypic {
-        display: block;
         margin-left:25px;
         margin-top:25px;
-        
+        position: static;
+    }
+
+    #quote {
+        align-items: center;
     }
 
     #quote p{
@@ -272,12 +274,12 @@ main {
     }
 
     .subtitle {
-        width: 100vw;
+        width: 90%;
         border-bottom: 5px solid var(--dark);
     }
 
     .sections {
-        width: 100vw;
+        width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -291,12 +293,14 @@ main {
         border-left: none;
     }
 
-    .sections img {
-        width: 100vw;
+    .contact-links {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
-    #contact {
-        flex-direction: column;
+    #contact, #work {
+        padding: 20px;
     }
 }
 
