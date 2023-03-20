@@ -58,7 +58,7 @@ nav {
     display: flex;
     height: 240px;
     width: 100vw;
-    background-image: url(/assets/images/sunset-background.png);
+    background-image: url(./assets/images/sunset-background.png);
     background-size: cover;
     justify-content: flex-end;
 }
